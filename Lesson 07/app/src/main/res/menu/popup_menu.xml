@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/popupGroup">
+        <item android:title="Item 1"
+            android:icon="@android:drawable/ic_menu_search"
+            android:iconTint="@color/colorPrimary"
+            android:iconTintMode="src_in" />
+        <item android:title="Item 2" >
+            <menu >
+                <item android:title="Item 2.1" />
+                <item android:title="Item 2.2" />
+            </menu>
+        </item>
+        <item android:title="Item 3" />
+    </group>
+</menu>
